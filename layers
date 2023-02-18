@@ -1,0 +1,6 @@
+1: signal -- have to have on top
+2: ground
+3: signal
+4: signal
+5: power
+6: components, routing for linear regulators
