@@ -2637,34 +2637,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 161.29 31.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0e313f18-3d13-4bff-a9f9-98139252ce68)
-    (property "Reference" "#PWR014" (at 161.29 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 161.29 27.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 161.29 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 161.29 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 05bea5c0-f8e7-4072-8921-199e2270e631))
-    (instances
-      (project "daughterboard"
-        (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/f7c4c87c-bc57-4b96-a4ee-eca871099c12"
-          (reference "#PWR014") (unit 1)
-        )
-        (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/f7c4c87c-bc57-4b96-a4ee-eca871099c12/587cd7ec-dd93-49e0-9e25-d509672a562d"
-          (reference "#PWR014") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+3V3") (at 85.09 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12a9c001-425d-41b5-af0a-be8f8906e08f)
@@ -2688,6 +2660,34 @@
         )
         (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/f7c4c87c-bc57-4b96-a4ee-eca871099c12/587cd7ec-dd93-49e0-9e25-d509672a562d"
           (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 168.91 104.14 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 161d8465-4ce5-4862-9620-8efa30b6ca49)
+    (property "Reference" "#PWR016" (at 168.91 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 168.91 100.33 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 168.91 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9e2ac25d-2c30-438f-8367-47c34026c393))
+    (instances
+      (project "daughterboard"
+        (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/f7c4c87c-bc57-4b96-a4ee-eca871099c12"
+          (reference "#PWR016") (unit 1)
+        )
+        (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/f7c4c87c-bc57-4b96-a4ee-eca871099c12/587cd7ec-dd93-49e0-9e25-d509672a562d"
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2989,6 +2989,34 @@
         )
         (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/f7c4c87c-bc57-4b96-a4ee-eca871099c12/587cd7ec-dd93-49e0-9e25-d509672a562d"
           (reference "U1") (unit 5)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+2V8") (at 161.29 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2d898250-c413-4f3a-9c08-706ba1783ffb)
+    (property "Reference" "#PWR028" (at 161.29 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+2V8" (at 161.29 27.94 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 161.29 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 161.29 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2f9c109a-0e11-463d-bf63-1f3a4bd8cf80))
+    (instances
+      (project "daughterboard"
+        (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/233da297-15ca-4163-a51b-09f27dce3135"
+          (reference "#PWR028") (unit 1)
+        )
+        (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/f7c4c87c-bc57-4b96-a4ee-eca871099c12/587cd7ec-dd93-49e0-9e25-d509672a562d"
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -3318,34 +3346,6 @@
         )
         (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/f7c4c87c-bc57-4b96-a4ee-eca871099c12/587cd7ec-dd93-49e0-9e25-d509672a562d"
           (reference "#PWR015") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+2V8") (at 168.91 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 51cb0ce0-acce-4167-938d-eba83c5d3017)
-    (property "Reference" "#PWR019" (at 168.91 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+2V8" (at 168.91 100.33 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 168.91 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 168.91 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7e3e19e2-c9fb-4db1-8d8f-c6907723465a))
-    (instances
-      (project "daughterboard"
-        (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/f7c4c87c-bc57-4b96-a4ee-eca871099c12"
-          (reference "#PWR019") (unit 1)
-        )
-        (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/f7c4c87c-bc57-4b96-a4ee-eca871099c12/587cd7ec-dd93-49e0-9e25-d509672a562d"
-          (reference "#PWR019") (unit 1)
         )
       )
     )

@@ -2243,6 +2243,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 100.33 80.01 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 72c74f39-e54d-4390-a2f4-5ad6f0b6e87b)
+    (property "Reference" "C4" (at 102.87 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1 uF" (at 102.87 81.28 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 101.2952 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 100.33 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid af996077-170a-4679-99b7-f5ca200651eb))
+    (pin "2" (uuid caa91393-9af3-4de9-8128-066ae4c83c89))
+    (instances
+      (project "daughterboard"
+        (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/233da297-15ca-4163-a51b-09f27dce3135"
+          (reference "C4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 219.71 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 817ed98c-403a-4a8e-a6a6-d355fb449a32)
@@ -2519,32 +2545,6 @@
       (project "daughterboard"
         (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/233da297-15ca-4163-a51b-09f27dce3135"
           (reference "#PWR021") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 177.8 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cb47bd78-90e6-459b-8d32-278fc5eedd5c)
-    (property "Reference" "C9" (at 181.61 79.375 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0.1 uF" (at 181.61 81.915 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 178.7652 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 177.8 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2c6dc6be-7bd1-4309-9715-b5eeb49ae7eb))
-    (pin "2" (uuid 3ff83cd8-7856-42de-8136-e96a9ed1c5f5))
-    (instances
-      (project "daughterboard"
-        (path "/dce8b7ce-114c-4680-a1bd-14f36a94838a/233da297-15ca-4163-a51b-09f27dce3135"
-          (reference "C9") (unit 1)
         )
       )
     )
